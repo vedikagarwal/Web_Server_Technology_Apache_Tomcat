@@ -41,10 +41,14 @@ The gallery was successfully accessed from a mobile phone using the local IP and
 
 ## Stress Test
 
-### Attempted: `ab -n 10000 -c 500`  
+### Attempted: 
+`ab -n 10000 -c 500`  
+
 - Failed: Too many open files (macOS limit)
 
-### Succeeded: `ab -n 5000 -c 100`  
+### Succeeded: 
+`ab -n 5000 -c 100`  
+
 - 26302.78 req/sec  
 - Avg request time: 3.802 ms  
 - Throughput: ~14975.12 KB/s  
