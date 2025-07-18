@@ -63,4 +63,26 @@ The gallery was successfully accessed from a mobile phone using the local IP and
 
 ## Folder structure 
 
-<pre lang="markdown"> ``` tomcat9/ └── webapps/ └── mygallery/ ├── index.html ├── page1.html ├── page2.html ├── page3.html ├── page4.html ├── page5.html └── images/ ├── pic1.jpg ├── pic2.jpg ├── pic3.jpg ├── pic4.jpg ├── pic5.jpg └── pic6.jpg ``` </pre>
+```
+tomcat9/
+└── webapps/
+    └── mygallery/
+        ├── index.html           # Homepage with links to gallery pages
+        ├── page1.html           # Gallery with 4 photos (2x2 layout)
+        ├── page2.html           # Gallery with 2 photos in a row
+        ├── page3.html           # Gallery with 1 large photo
+        ├── page4.html           # Gallery with 6-photo grid
+        ├── page5.html           # Gallery with mixed layout
+        └── images/
+            ├── pic1.jpg         # Used across gallery pages
+            ├── pic2.jpg
+            ├── pic3.jpg
+            ├── pic4.jpg
+            ├── pic5.jpg
+            ├── pic6.jpg
+            ├── pic7.jpg
+            ├── pic8.jpg
+            ├── pic9.jpg
+            └── pic10.jpg
+```
+
