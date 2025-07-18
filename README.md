@@ -59,4 +59,23 @@ The gallery was successfully accessed from a mobile phone using the local IP and
 1. Download and extract Apache Tomcat: https://tomcat.apache.org/download-90.cgi
 2. Place your HTML files in `webapps/mygallery/`
 3. Start the server with `startup.sh`
-4. Visit: `http://localhost:8080/mygallery/index.html` 
+4. Visit: `http://localhost:8080/mygallery/index.html`
+
+## Folder structure 
+
+tomcat9/
+└── webapps/
+    └── mygallery/
+        ├── index.html
+        ├── page1.html
+        ├── page2.html
+        ├── page3.html
+        ├── page4.html
+        ├── page5.html
+        └── images/
+            ├── pic1.jpg
+            ├── pic2.jpg
+            ├── pic3.jpg
+            ├── pic4.jpg
+            ├── pic5.jpg
+            └── pic6.jpg
